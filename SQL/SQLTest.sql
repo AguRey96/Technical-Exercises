@@ -89,4 +89,4 @@ SELECT win.Name AS WindowName
 FROM AD_Window win
 JOIN AD_Tab tab ON tab.AD_Window_ID = win.AD_Window_ID
 GROUP BY win.AD_Window_ID, win.Name
-HAVING COUNT(tab.ID) > 5;
+HAVING COUNT(tab.ID) > 5; 
